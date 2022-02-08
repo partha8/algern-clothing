@@ -11,7 +11,7 @@
 
   --primary-color-a5: rgba(27, 27, 27, 0.7);
 
-  --transition-one: all 0.3s linear;
+  --transition-one: all 0.4s linear;
   --transition-two: 0.3s ease-in-out all;
   --borderRadius: 10px;
   --letterSpacing: 1px;
@@ -30,6 +30,7 @@ a {
 }
 
 body {
+  font-family:serif,sans-serif;
   background: var(--bg-color);
 }
 
