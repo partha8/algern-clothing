@@ -34,32 +34,45 @@
                     <form>
                         <div>
                             <div>
-                                <label>
+                                <label for="first-name">
                                     First Name<span class="req">*</span>
                                 </label>
-                                <input type="text" required autocomplete="off" />
+                                <input id="first-name" type="text" required autocomplete="off" />
                             </div>
 
                             <div>
-                                <label>
+                                <label for="last-name">
                                     Last Name<span class="req">*</span>
                                 </label>
-                                <input type="text" required autocomplete="off" />
+                                <input id='last-name' type="text" required autocomplete="off" />
                             </div>
                         </div>
 
                         <div>
-                            <label>
+                            <label for="email">
                                 Email Address<span class="req">*</span>
                             </label>
-                            <input type="email" required autocomplete="off" />
+                            <input id="email" type="email" required autocomplete="off" />
                         </div>
 
                         <div>
-                            <label>
+                            <label for="set-password">
                                 Set A Password<span class="req">*</span>
                             </label>
-                            <input type="password" required autocomplete="off" />
+                            <input id="set-password" type="password" required autocomplete="off" />
+                        </div>
+                        <div>
+                            <label for="confirm-password">
+                                Confirm Password<span class="req">*</span>
+                            </label>
+                            <input id="confirm-password" type="password" required autocomplete="off" />
+                        </div>
+
+                        <div>
+                            <label for="show-password">
+                                Show Password
+                            </label>
+                            <input id="show-password" class="show-password" type="checkbox" />
                         </div>
 
                         <button type="submit" class="btn btn-form-action">Get Started</button>

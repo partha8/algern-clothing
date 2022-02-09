@@ -56,6 +56,12 @@ input:focus {
   border-color: var(--primary-color);
 }
 
+.show-password{
+  width: 1rem;
+  height: 1rem;
+  vertical-align: middle;
+}
+
 .btn-form-action {
   background: var(--primary-color);
   border-radius: 0;

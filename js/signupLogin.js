@@ -3,6 +3,10 @@ const signUp = document.getElementById("tab-sign-up");
 const signUpPage = document.getElementById("signup");
 const loginPage = document.getElementById("login");
 
+const setPassword = document.getElementById("set-password");
+const confirmPassword = document.getElementById("confirm-password");
+const showPassword = document.getElementById("show-password");
+
 signUp.addEventListener("click", () => {
   signUpPage.classList.remove("hidden");
   signUpPage.classList.add("show");
@@ -21,4 +25,14 @@ login.addEventListener("click", () => {
 
   login.classList.add("active");
   signUp.classList.remove("active");
+});
+
+showPassword.addEventListener("click", () => {
+  if (setPassword.type === "password" && confirmPassword.type === "password") {
+    setPassword.type = "text";
+    confirmPassword.type = "text";
+  } else {
+    setPassword.type = "password";
+    confirmPassword.type = "password";
+  }
 });
