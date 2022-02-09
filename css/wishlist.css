@@ -1,0 +1,46 @@
+.navbar {
+  background: var(--primary-color);
+  position: static;
+}
+
+.cards {
+  padding: 0.5rem 3rem 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  box-shadow: var(--light-shadow);
+}
+
+.wishlist-icon-vert {
+  color: var(--clr-red);
+}
+
+.cta-btn a {
+  background: var(--primary-color);
+}
+
+.cta-btn a:hover {
+  background: var(--primary-color-a5);
+}
+
+.cta-btn a:active {
+  background: var(--primary-color);
+}
+
+.trash {
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: var(--clr-black);
+}
+
+.trash:hover {
+  color: var(--clr-red);
+}
