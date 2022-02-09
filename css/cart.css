@@ -18,7 +18,7 @@ strong {
 .btn {
   display: inline-block;
   background: var(--primary-color);
-  color: var(--clr-grey-10);
+  color: var(--font-color-light);
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 2px;
@@ -39,7 +39,7 @@ strong {
 
 /* cart header */
 .cart-header {
-  border-bottom: 1px solid var(--clr-grey-50);
+  border-bottom: 1px solid var(--border-color);
   padding-bottom: 1.25rem;
   display: flex;
   justify-content: space-between;
@@ -56,13 +56,13 @@ strong {
 
 .cart-table {
   padding: 10px 0 0;
-  border-bottom: 1px solid var(--clr-grey-50);
+  border-bottom: 1px solid var(--border-color);
 }
 
 .item {
   display: flex;
   flex-direction: column;
-  border-bottom: 1px solid var(--clr-grey-50);
+  border-bottom: 1px solid var(--border-color);
   margin-bottom: 10px;
 }
 
@@ -140,14 +140,14 @@ span.styles .blue-link {
   text-align: center;
   outline: 0;
   font-size: 1rem;
-  border: 1px solid var(--clr-grey-50);
+  border: 1px solid var(--border-color);
   width: 2.5rem;
   height: 2.5rem;
 }
 
 .price {
   display: inline-block;
-  color: var(--clr-grey-100);
+  color: var(--font-color-tint2);
 }
 .price > span {
   margin: 0 5px;
@@ -233,7 +233,7 @@ span.styles .blue-link {
 }
 
 .sb-label {
-  color: var(--clr-grey-100);
+  color: var(--font-color-tint2);
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -244,7 +244,7 @@ span.styles .blue-link {
 }
 
 .grand-total {
-  border-top: 1px solid var(--clr-grey-50);
+  border-top: 1px solid var(--border-color);
   padding-top: 10px;
   margin-top: 10px;
   font-size: 1.2rem;
@@ -256,7 +256,7 @@ span.styles .blue-link {
   padding-top: 1rem;
   display: flex;
   justify-content: space-between;
-  border-top: 1px solid var(--clr-grey-50);
+  border-top: 1px solid var(--border-color);
 }
 
 .cont-shopping {
