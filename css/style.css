@@ -6,7 +6,13 @@
 }
 :root {
   --primary-color: #1b1b1b;
-  --secondary-color: #24211e;
+  --font-color-light: var(--clr-grey-10);
+  --font-color-dark: var(--clr-grey-900);
+
+  --font-color-tint1: var(--clr-grey-600);
+  --font-color-tint2: var(--clr-grey-400);
+
+  --border-color: var(--clr-grey-40);
   --bg-color: #faf9f8;
 
   --primary-color-a5: rgba(27, 27, 27, 0.7);
@@ -30,7 +36,7 @@ a {
 }
 
 body {
-  font-family:serif,sans-serif;
+  font-family: serif, sans-serif;
   background: var(--bg-color);
 }
 
@@ -60,15 +66,15 @@ body {
 }
 
 .btn-hero {
-  color: var(--clr-white);
+  color: var(--font-color-light);
   font-weight: 600;
-  background: #24211ed0;
+  background: var(--primary-color-a5);
   transition: var(--transition-one);
   margin-left: 10px;
 }
 
 .btn-hero:hover {
-  background: #24211e;
+  background: var(--primary-color);
 }
 
 /* story */
@@ -111,7 +117,7 @@ p.lead {
   transform: translate(-50%, -50%);
   text-align: center;
   background: transparent;
-  color: var(--clr-white);
+  color: var(--font-color-light);
   font-size: 50px;
   text-transform: capitalize;
 }
