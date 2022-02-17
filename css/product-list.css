@@ -102,15 +102,15 @@ form {
 }
 
 .products {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
   gap: 1.5rem;
 }
 
 .card {
   box-shadow: var(--light-shadow);
+  margin: 0 auto;
 }
 
 .cta-btn a {
