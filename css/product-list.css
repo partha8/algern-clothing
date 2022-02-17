@@ -104,13 +104,14 @@ form {
 .products {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  grid-template-columns: repeat(auto-fit,18rem);
+  justify-content: center;
   gap: 1.5rem;
 }
 
 .card {
   box-shadow: var(--light-shadow);
-  margin: 0 auto;
+  width: inherit;
 }
 
 .cta-btn a {
