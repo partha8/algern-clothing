@@ -25,11 +25,11 @@ const createNav = () => {
         </div>
         <ul id='links-container' class="links-container">
             <li class="link-item"><a href="./product-list.html" class="link">women</a></li>
-            <li class="link-item"><a href="#" class="link">men</a></li>
-            <li class="link-item"><a href="#" class="link">children</a></li>
-            <li class="link-item"><a href="#" class="link">handbags</a></li>
-            <li class="link-item"><a href="#" class="link">beauty</a></li>
-            <li class="link-item"><a href="#" class="link">jewellery and watches</a></li>
+            <li class="link-item"><a href="./product-list.html" class="link">men</a></li>
+            <li class="link-item"><a href="./product-list.html" class="link">children</a></li>
+            <li class="link-item"><a href="./product-list.html" class="link">handbags</a></li>
+            <li class="link-item"><a href="./product-list.html" class="link">beauty</a></li>
+            <li class="link-item"><a href="./product-list.html" class="link">jewellery and watches</a></li>
         </ul>
     `;
 };
