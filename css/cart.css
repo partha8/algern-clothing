@@ -59,14 +59,14 @@ strong {
   border-bottom: 1px solid var(--border-color);
 }
 
-.item {
+.product-item {
   display: flex;
   flex-direction: column;
   border-bottom: 1px solid var(--border-color);
   margin-bottom: 10px;
 }
 
-.item:last-child {
+.product-item:last-child {
   border-bottom: none;
   padding-bottom: 0;
   margin-bottom: 0;
